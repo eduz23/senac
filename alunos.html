@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de alunos</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <p id="teste"></p>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>matricula</th>
+            </tr>
+        </thead>
+        <tbody id="tbodyAluno">
+
+        </tbody>
+    </table>
+
+    <!--modal-->
+    <div id="modal">
+        <h3>Edite os dados do aluno</h3>
+
+        <label> Id: <input type="text" id="idAluno" readonly/>
+        </label>
+
+        <labe>Nome: <input type="text" id="nomeAluno">
+        <br>
+
+        </labe>
+        <labe>Matricula: <input type="text" id="matriculaAluno">
+        </labe>
+        <br>
+
+        <button id="btnSalvar">Salvar</button>
+        <button id="btnExcluir">Excluir</button>
+
+    </div>
+
+    <script src="aluno.js"></script>
+
+</body>
+
+
+</html>
